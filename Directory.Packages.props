@@ -1,0 +1,12 @@
+<Project>
+  <!--
+    The ONLY packages in this solution, and only test projects use them.
+    GroundedConcierge.Architecture.Tests fails the build if any other package
+    appears anywhere: no model SDK, no cloud SDK, no paid component.
+  -->
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageVersion Include="xunit" Version="2.9.3" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.4" />
+  </ItemGroup>
+</Project>

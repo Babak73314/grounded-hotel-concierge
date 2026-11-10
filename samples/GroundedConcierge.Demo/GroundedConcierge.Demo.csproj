@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- The composition root: a scripted console conversation. Nothing references it. -->
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\GroundedConcierge.Domain\GroundedConcierge.Domain.csproj" />
+    <ProjectReference Include="..\..\src\GroundedConcierge.Answering\GroundedConcierge.Answering.csproj" />
+  </ItemGroup>
+
+</Project>

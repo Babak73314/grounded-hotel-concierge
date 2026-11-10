@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    The boundary between deterministic answers and model prose: the gate, the
+    validator, the fence and the engine that routes a turn. It references the
+    domain only, and no package — the model is an interface.
+  -->
+
+  <ItemGroup>
+    <ProjectReference Include="..\GroundedConcierge.Domain\GroundedConcierge.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="GroundedConcierge.Answering.Tests" />
+  </ItemGroup>
+
+</Project>

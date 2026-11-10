@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    The deterministic hotel domain: parsing, pricing, availability and the
+    code-written answer. It references no project and no package, and an
+    architecture test keeps it that way.
+  -->
+
+</Project>
