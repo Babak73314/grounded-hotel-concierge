@@ -172,11 +172,12 @@ been seen to fail proves nothing.
 
 ## What this is not
 
-It is not connected to a model. In production `IDraftModel` is an LLM call;
-here it is `ScriptedDraftModel`, which returns canned drafts and records every
-prompt. It books nothing, holds nothing and charges nothing, and the composed
-answer says so in every quote. In production `IHotelCatalogSource` is a
-property-management system; here it is in memory.
+It is not connected to a model. In my platform's live demo `IDraftModel` is a
+real model call; here it is `ScriptedDraftModel`, which returns canned drafts
+and records every prompt. It books nothing, holds nothing and charges nothing,
+and the composed answer says so in every quote. In that demo the catalogue is a
+database that staff maintain; here `IHotelCatalogSource` is in memory, and a
+property-management system could sit behind the same interface.
 
 ## Licence
 
@@ -188,4 +189,4 @@ needs written permission.
 
 Built by Babak ([Babak73314](https://github.com/Babak73314)). I design
 and build AI features in .NET where the model's job is clearly bounded and code
-owns the facts. Get in touch through my GitHub profile.
+owns the facts.
